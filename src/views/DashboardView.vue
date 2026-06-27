@@ -18,12 +18,13 @@ const allowedCams = computed(() => {
 
 // Grid layout — cols saja, tidak ada batas max (tampilkan semua kamera)
 const layouts = [
-  { id: '2x2', label: '2×2', cols: 2 },
-  { id: '3x3', label: '3×3', cols: 3 },
-  { id: '4x4', label: '4×4', cols: 4 },
-  { id: '8x4', label: '8×4', cols: 8 },
+  { id: '2col', label: '2 KOL', cols: 2 },
+  { id: '3col', label: '3 KOL', cols: 3 },
+  { id: '4col', label: '4 KOL', cols: 4 },
+  { id: '8col', label: '8 KOL', cols: 8 },
 ]
-const activeLayout  = ref('3x3')
+
+const activeLayout  = ref('3col')
 const currentLayout = computed(() => layouts.find(l => l.id === activeLayout.value))
 
 // Semua kamera yang boleh diakses ditampilkan
