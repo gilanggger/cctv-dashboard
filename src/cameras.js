@@ -1,8 +1,3 @@
-// ============================================================
-// KONFIGURASI SEMUA KAMERA
-// Tambah / hapus kamera di sini tanpa ubah kode lain.
-// ============================================================
-
 export const CAMERAS = [
   {
     id: 'cam-gawanga-tebu',

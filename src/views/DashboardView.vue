@@ -38,7 +38,6 @@ const numCols     = computed(() => currentLayout.value.cols)
     <!-- TOP BAR -->
     <AppTopBar
       title="CCTV MONITORING"
-      subtitle="172.16.10.200:8889"
       status-dot="amber"
     >
       <div class="flex items-center gap-2">
